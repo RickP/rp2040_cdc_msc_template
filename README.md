@@ -1,5 +1,18 @@
 # rp2040 CDC&MSC project template
 
+This is a basic template for a Pi Pico C-SDK project. 
+
+It provides the added funtionality of packing it's own sources when you compile it and makes them available as a read-only FAT16 mass storage usb drive.
+You can also add up to 14 more files to the folder 'usb_files' that will be available on the disk. Don't exceed your flash memory size (2MB on the Pi Pico).
+
+It also outputs printf messages over a USB serial port in addition to the mass storage device.
+
+## Known issues
+
+- Only 8 charater filenames (longer filenames are truncated)
+- No subdirectories
+- File creations dates are all 1/1/1970
+
 ## Dependencies
 
 - Install gcc arm and add the bin dir to your $PATH
