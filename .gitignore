@@ -3,3 +3,4 @@ RP2040_CDC_MSC.*
 *.creator.user
 /cmake-build-*
 /build
+usb_files/source.zip
