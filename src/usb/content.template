@@ -1,0 +1,12 @@
+#ifndef CONTENT_H
+#define CONTENT_H
+
+#define FS_LABEL $FS_LABEL
+
+#define FS_NAMES { $FS_NAMES }
+
+#define FS_CONTENT { $FS_CONTENT }
+
+#define FS_SIZE { $FS_SIZE }
+
+#endif // CONTENT_H

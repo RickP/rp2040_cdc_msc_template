@@ -1,2 +1,5 @@
+.DS_Store
+RP2040_CDC_MSC.*
+*.creator.user
 /cmake-build-*
 /build

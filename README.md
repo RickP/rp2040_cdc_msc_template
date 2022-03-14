@@ -4,6 +4,8 @@
 
 - Install gcc arm and add the bin dir to your $PATH
 
+- You'll need a working Python3 installation
+
 - Install rp2040 sdk and add PICO_SDK_PATH to your environment (optional - if you don't do it sdk will be downloaded in build dir)
 
 - Install openocd with rp2040 and picoprobe support from https://github.com/raspberrypi/openocd.git (for using a 2nd rp2040 board as a debugger - see https://datasheets.raspberrypi.org/pico/getting-started-with-pico.pdf Appendix A)
