@@ -19,7 +19,7 @@ It also outputs printf messages over a USB serial port in addition to the mass s
 
 - You'll need a working Python3 installation
 
-- Install rp2040 sdk and add PICO_SDK_PATH to your environment (optional - if you don't do it sdk will be downloaded in build dir)
+- Optional: Install rp2040 sdk and add PICO_SDK_PATH to your environment (If you don't do it sdk will be downloaded on the first build)
 
 ## Building
 
