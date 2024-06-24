@@ -9,7 +9,7 @@ It also outputs printf messages over a USB serial port in addition to the mass s
 
 ## Known issues
 
-- Only 8 charater filenames (longer filenames are truncated)
+- Only 8 charater filenames (longer filenames are truncated) for files on the usb masc device (not for the sources in the zip)
 - No subdirectories
 - File creations dates are all 1/1/1970
 
